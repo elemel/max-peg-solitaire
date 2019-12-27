@@ -6,10 +6,8 @@ DIRECTIONS = [(1, 0), (0, 1), (-1, 0), (0, -1)]
 
 
 def print_path(grid, parents):
-    parent = parents.get(grid)
-
-    if parent:
-        print_path(parent, parents)
+    if parents[grid]:
+        print_path(parents[grid], parents)
         print()
 
     for row in grid:
