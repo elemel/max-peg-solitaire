@@ -2,7 +2,7 @@
 Find the maximum number of remaining pegs after a game of peg solitaire
 
 ```bash
-python3 solution.py < english.txt
+python3 solution.py < boards/english.txt
 ```
 
 ```
