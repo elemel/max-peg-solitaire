@@ -61,4 +61,4 @@ while queue:
 
 print_path(max_grid, parents)
 print()
-print(max_peg_count, len(parents))
+print(max_peg_count)
