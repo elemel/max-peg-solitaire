@@ -1,8 +1,12 @@
-# max-peg-solitaire
-Find the maximum number of remaining pegs after a game of peg solitaire
+# peg-solitaire
+
+Peg solitaire algorithms in Python
+
+
+## Maximum number of remaining pegs
 
 ```bash
-python3 solution.py < boards/english.txt
+python3 max.py < boards/english.txt
 ```
 
 ```
